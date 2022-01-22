@@ -1,7 +1,10 @@
-import React from "react";
+import React,{useContext} from "react";
 import { Container, Categories } from "./style";
 import { Category } from "./CategoryData";
+import { MoviesList } from "../../Context/Movies";
+
 const SubNavbar = () => {
+  const [data,setData] = useContext(MoviesList)
   return (
     <Container>
       <Categories >

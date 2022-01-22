@@ -20,6 +20,11 @@ export const LogoPart = styled.div`
 LogoPart.Box = styled.img`
   width: 24px;
   height: 24px;
+  border-radius: 50%;
+    :hover {
+      background-color: rgba(255,255,255,0.3);
+
+  }
 `;
 
 LogoPart.Logo = styled.div`
@@ -30,6 +35,7 @@ LogoPart.LogoImg = styled.img`
   display: block;
   width: 24px;
   height: 24px;
+  margin-right: 2.5px;
 `;
 LogoPart.Youtube = styled.h2`
   color: rgba(255, 255, 255, 1);

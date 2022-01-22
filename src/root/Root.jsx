@@ -1,12 +1,15 @@
-import React from 'react'
-import Page from '../Components/Page/Page'
-import MenuList from '../Context/MenuList'
+import React from "react";
+import Page from "../Components/Page/Page";
+import MenuList from "../Context/MenuList";
+import Movies from "../Context/Movies";
 const Root = () => {
-    return (
-        <MenuList>
-            <Page />
-        </MenuList>
-    )
-}
+  return (
+    <Movies>
+      <MenuList>
+        <Page />
+      </MenuList>
+    </Movies>
+  );
+};
 
-export default Root
+export default Root;

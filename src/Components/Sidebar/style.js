@@ -4,6 +4,7 @@ export const Container = styled.div`
   min-width: 243px;
   height: 100vh;
   background: #212121;
+  border-right: 1px solid wheat;
   `;
 
 export const List = styled.div`
